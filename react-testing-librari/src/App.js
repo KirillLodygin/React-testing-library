@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 
 const getUser = () => Promise.resolve({ id: 1, name: "Yauhen" });
