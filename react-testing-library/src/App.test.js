@@ -32,6 +32,7 @@ describe("App", () => {
     expect(message).toBeInTheDocument();
   });
 
+
   it("fetches news from an API (alternative)", async () => {
     const promise = Promise.resolve({ data: { hits } });
     axios.get.mockImplementationOnce(() => promise);
